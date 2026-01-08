@@ -63,7 +63,7 @@ Il modello ha raggiunto un'**Accuratezza del 74%** sul Test Set.
 ## Come Eseguire il Progetto
 1.  Clona il repository:
     ```bash
-    git clone [https://github.com/reimici/EnergyConsumptionAnalysis.git](https://github.com/reimici/EnergyConsumptionAnalysis.git)
+    git clone https://github.com/reimici/EnergyConsumptionAnalysis.git
     ```
 2.  Installa le dipendenze:
     ```bash
