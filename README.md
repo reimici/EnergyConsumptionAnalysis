@@ -17,8 +17,6 @@ La sfida di questo progetto è stata costruire un modello predittivo affidabile 
 
 ## Workflow del Progetto
 
-Il notebook segue una pipeline di Data Science completa:
-
 ### 1. Data Cleaning & Engineering
 * Gestione delle serie temporali e rimozione dei duplicati dovuti al cambio dell'ora legale (DST).
 * Estrazione di feature temporali (Mese, Giorno, Anno).
@@ -67,7 +65,7 @@ Il modello ha raggiunto un'**Accuratezza del 74%** sul Test Set.
     ```
 2.  Installa le dipendenze:
     ```bash
-    pip install pandas numpy matplotlib seaborn scikit-learn
+    pip install pandas numpy matplotlib seaborn scikit-learn jinja2
     ```
 3.  Apri il notebook:
     ```bash
