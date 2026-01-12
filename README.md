@@ -17,13 +17,15 @@ La sfida di questo progetto è stata costruire un modello predittivo affidabile 
 
 ## Workflow del Progetto
 
+Il notebook segue una pipeline di Data Science completa:
+
 ### 1. Data Cleaning & Engineering
 * Gestione delle serie temporali e rimozione dei duplicati dovuti al cambio dell'ora legale (DST).
 * Estrazione di feature temporali (Mese, Giorno, Anno).
 
 ### 2. Exploratory Data Analysis (EDA)
 * **Trend:** Identificato il fenomeno del "Disaccoppiamento" (consumi stabili nonostante la crescita economica grazie all'efficienza energetica).
-* **Profilo Orario:** Individuata la **"Kill Zone"** estiva (14:00 - 18:00), momento di massimo rischio per la rete a causa dell'aria condizionata.
+* **Profilo Orario:** Individuato il problema estivo (14:00 - 18:00), momento di massimo rischio per la rete a causa dell'aria condizionata.
 
 ### 3. Segmentazione (Unsupervised Learning)
 Utilizzo dell'algoritmo **K-Means Clustering** per categorizzare le giornate in 3 profili operativi:
@@ -65,7 +67,7 @@ Il modello ha raggiunto un'**Accuratezza del 74%** sul Test Set.
     ```
 2.  Installa le dipendenze:
     ```bash
-    pip install pandas numpy matplotlib seaborn scikit-learn jinja2
+    pip install pandas numpy matplotlib seaborn scikit-learn
     ```
 3.  Apri il notebook:
     ```bash
