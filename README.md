@@ -75,5 +75,3 @@ Il modello ha raggiunto un'**Accuratezza del 74%** sul Test Set.
     ```
 
 ---
-
-*Autore: Rei Mici | A.A. 2025/2026*
